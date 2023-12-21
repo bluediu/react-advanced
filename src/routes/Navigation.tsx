@@ -1,4 +1,3 @@
-import { LazyPage1, LazyPage2, LazyPage3 } from '../01-lazyload/pages';
 import reactLogo from '../assets/react.svg';
 
 import {
@@ -20,37 +19,37 @@ const Navigation = () => {
           <ul>
             <li>
               <NavLink
-                to="/lazy1"
+                to="/"
                 className={({ isActive }) => (isActive ? 'nav-active' : '')}
               >
-                Lazy 1
+                Home
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/lazy2"
+                to="/users"
                 className={({ isActive }) => (isActive ? 'nav-active' : '')}
               >
-                Lazy 2
+                Users
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/lazy3"
+                to="/about"
                 className={({ isActive }) => (isActive ? 'nav-active' : '')}
               >
-                Lazy 3
+                About
               </NavLink>
             </li>
           </ul>
         </nav>
 
         <Routes>
-          <Route path="lazy1" element={<LazyPage1 />}></Route>
-          <Route path="lazy2" element={<LazyPage2 />}></Route>
-          <Route path="lazy3" element={<LazyPage3 />}></Route>
+          <Route path="/" element={<h2>Home Page</h2>}></Route>
+          <Route path="users" element={<h2>Users Page</h2>}></Route>
+          <Route path="about" element={<h2>About Page</h2>}></Route>
 
-          <Route path="/*" element={<Navigate to="/lazy1" replace />}></Route>
+          <Route path="/*" element={<Navigate to="/" replace />}></Route>
         </Routes>
       </div>
     </BrowserRouter>
