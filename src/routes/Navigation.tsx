@@ -1,3 +1,4 @@
+import ShoppingPage from '../02-component-patterns/pages/ShoppingPage';
 import reactLogo from '../assets/react.svg';
 
 import {
@@ -22,7 +23,7 @@ const Navigation = () => {
                 to="/"
                 className={({ isActive }) => (isActive ? 'nav-active' : '')}
               >
-                Home
+                Shopping
               </NavLink>
             </li>
             <li>
@@ -45,7 +46,7 @@ const Navigation = () => {
         </nav>
 
         <Routes>
-          <Route path="/" element={<h2>Home Page</h2>}></Route>
+          <Route path="/" element={<ShoppingPage />}></Route>
           <Route path="users" element={<h2>Users Page</h2>}></Route>
           <Route path="about" element={<h2>About Page</h2>}></Route>
 
