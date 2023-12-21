@@ -1,0 +1,51 @@
+[
+  {
+    "type": "input",
+    "name": "firstName",
+    "placeholder": "eg. Frank",
+    "label": "First Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "placeholder": "eg. Johnson",
+    "label": "Last Name",
+    "value": ""
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "eg. frank@gmail.com",
+    "label": "E-mail",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "email"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "favoriteGame",
+    "label": "Favorite Game",
+    "value": "",
+    "options": [
+      { "id": 1, "label": "Geometry Dash" },
+      { "id": 2, "label": "Resident Evil 4" },
+      { "id": 3, "label": "Minecraft" }
+    ]
+  }
+]
