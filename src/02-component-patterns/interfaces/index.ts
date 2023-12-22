@@ -1,6 +1,6 @@
 export type {
   IProductContextProps,
   IProductCardHOCProps,
-  IProductCardProps,
+  IStylesProps,
   IProduct,
 } from './interfaces';

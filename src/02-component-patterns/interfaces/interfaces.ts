@@ -1,5 +1,16 @@
-import { ReactElement } from 'react';
+import { CSSProperties } from 'react';
 
+import { IProps as IProductCardProps } from '../components/ProductCard';
+import { IProps as IProductImageProps } from '../components/ProductImage';
+import { IProps as IProductTitleProps } from '../components/ProductTitle';
+
+// Global
+export interface IStylesProps {
+  className?: string;
+  style?: CSSProperties;
+}
+
+// Custom
 export interface IProductContextProps {
   counter: number;
   increaseBy: (value: number) => void;
@@ -8,14 +19,9 @@ export interface IProductContextProps {
 
 export interface IProductCardHOCProps {
   ({ children, product }: IProductCardProps): JSX.Element;
-  Title: ({ title }: { title?: string }) => JSX.Element;
-  Image: ({ img }: { img?: string }) => JSX.Element;
-  Buttons: () => JSX.Element;
-}
-
-export interface IProductCardProps {
-  children?: ReactElement | ReactElement[];
-  product: IProduct;
+  Title: (Props: IProductTitleProps) => JSX.Element;
+  Image: (Props: IProductImageProps) => JSX.Element;
+  Buttons: (Props: IStylesProps) => JSX.Element;
 }
 
 export interface IProduct {
