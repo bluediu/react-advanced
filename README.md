@@ -1,10 +1,10 @@
-# Advanced React trips
+[# Advanced React trips
 
 Exploring the depths of React.js, where advanced implementations take the spotlight. Dive into performance optimization with lazy loading and chunking techniques, ensuring efficient code splitting and seamless user experiences. Embrace robust component patterns that promote reusability and scalability, paving the way for a solid and maintainable codebase. Our focus on clean architecture principles fosters a clear separation of concerns, leading to more manageable and less error-prone applications. Join us on this journey through sophisticated React.js landscapes and more
 
 ## Content
 
-### React Lazy Loading with Chunks ⚡
+### Lazy Loading with Chunks ⚡
 
 1. Implement React.lazy() and Suspense:
 
@@ -22,7 +22,7 @@ Exploring the depths of React.js, where advanced implementations take the spotli
 
 - By using lazy loading with chunks, improve application speed and responsiveness, particularly on slower connections, enhancing the overall user experience.
 
-### React Compound Component Pattern 📦
+### Compound Component Pattern 📦
 
 1.  Composition-based Design:
 
@@ -39,3 +39,17 @@ Exploring the depths of React.js, where advanced implementations take the spotli
 4. Customizable UI:
 
 - Offers enhanced control and customization of UI elements by allowing rearrangement and adjustment of child components.
+
+### Extensible Styles Pattern 💅
+
+1. Modular and Reusable Styles
+
+- Utilizes modular CSS or CSS-in-JS to create reusable and extendable style components.
+
+2. Props-based Customization
+
+- Leverages props to customize styles, allowing dynamic styling based on component state or parent input.
+
+3. Composition of Styles
+
+- Encourages composition of style objects or functions for scalable and maintainable styling.
