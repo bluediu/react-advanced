@@ -53,3 +53,17 @@ Exploring the depths of React.js, where advanced implementations take the spotli
 3. Composition of Styles
 
 - Encourages composition of style objects or functions for scalable and maintainable styling.
+
+### Control Props Pattern 🕹️
+
+1. Controlled Component State
+
+- Involves passing state management to parent components, making child components controlled by the parent.
+
+2. Props as Handlers
+
+- Parent components pass callback functions as props to handle child component state changes.
+
+3. Enhanced Predictability
+
+- Facilitates a more predictable and controlled flow of data, enabling parent components to manage and manipulate child component behavior.
