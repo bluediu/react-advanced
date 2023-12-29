@@ -3,4 +3,6 @@ export type {
   IProductCardHOCProps,
   IStylesProps,
   IProduct,
+  IOnChangeArgs,
+  IProductInCart,
 } from './interfaces';

@@ -29,3 +29,12 @@ export interface IProduct {
   title: string;
   img?: string;
 }
+
+export interface IOnChangeArgs {
+  product: IProduct;
+  count: number;
+}
+
+export interface IProductInCart extends IProduct {
+  count: number;
+}
