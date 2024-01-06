@@ -68,7 +68,7 @@ Exploring the depths of React.js, where advanced implementations take the spotli
 
 - Facilitates a more predictable and controlled flow of data, enabling parent components to manage and manipulate child component behavior.
 
-## State Initializer + Function as Child (Render Props) Pattern 🔮
+### State Initializer + Function as Child (Render Props) Pattern 🔮
 
 1. State Initialization via Props
 
