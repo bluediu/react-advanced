@@ -5,4 +5,6 @@ export type {
   IProduct,
   IOnChangeArgs,
   IProductInCart,
+  InitialValues,
+  IProductCardHandlers,
 } from './interfaces';
