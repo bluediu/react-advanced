@@ -70,5 +70,10 @@ Exploring the depths of React.js, where advanced implementations take the spotli
 
 ## State Initializer + Function as Child (Render Props) Pattern 🔮
 
-1. State Initialization via Props: Utilizes props, such as initialValues, to initialize the state of a component.
-2. Render Props for Functionality: Employs a function as a child (render prop) to expose component functionality to the parent.
+1. State Initialization via Props
+
+- Utilizes props, such as initialValues, to initialize the state of a component.
+
+2. Render Props for Functionality
+
+- Employs a function as a child (render prop) to expose component functionality to the parent.
