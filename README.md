@@ -77,3 +77,21 @@ Exploring the depths of React.js, where advanced implementations take the spotli
 2. Render Props for Functionality
 
 - Employs a function as a child (render prop) to expose component functionality to the parent.
+
+### React form implementations 📝
+
+1. Default React form & validations
+
+- Implement basic React form with default form handling and basic validations.
+
+2. Form handling using Formik
+
+- Enhance form functionality using Formik library to streamline form state management and validation.
+
+3. Form validation with Yup Schema Builder
+
+- Implement advanced form validations using Yup, a schema builder library. This allows for more complex and structured validation rules.
+
+4. Custom components using Formik
+
+- Leverage Formik to create custom form components. These components encapsulate form logic, making it easier to build and manage complex forms.
